@@ -11,6 +11,12 @@ A lightweight WooCommerce Wordpress plugin that adds custom product badges to se
 ## Description
 
 WooCommerce Custom Product Badge is a simple yet powerful plugin that allows you to add eye-catching badges to your WooCommerce products. Perfect for highlighting special products, promotions, or new arrivals.
+## Plugin Demo Video
+ 
+
+https://github.com/user-attachments/assets/43cba71d-a3ff-485a-8fb6-2cd8b636e54f
+
+
 
 **Key Features:**
 * Easy-to-use product badge system
