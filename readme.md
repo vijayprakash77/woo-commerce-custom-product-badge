@@ -113,26 +113,6 @@ Display products with specific badges anywhere on your site using the `[custom_b
 * Compatible with most themes that follow WooCommerce standards
 * Uses WooCommerce hooks and WordPress best practices
 
-## Frequently Asked Questions
-
-**Q: Can I add custom badge types?**
-A: Currently, badge types are predefined. You can modify the `woo_custom_badge_get_options()` function to add custom badges.
-
-**Q: Will badges show on shop/category pages?**
-A: By default, badges only show on single product pages. You can add them to shop pages by modifying the plugin hooks.
-
-**Q: Can I change the badge appearance?**
-A: Yes, you can customize the badge styling by editing the CSS files in the `assets/css/` directory.
-
-**Q: Does this plugin affect site performance?**
-A: The plugin is lightweight and uses efficient WordPress/WooCommerce practices with minimal impact on performance.
-
-**Q: Can I use multiple badges on one product?**
-A: Currently, only one badge per product is supported. This is by design to maintain clean product presentation.
-
-**Q: What happens when I deactivate the plugin?**
-A: All badge data is automatically removed from the database when the plugin is deactivated.
-
 ## Technical Details
 
 **File Structure:**
@@ -214,6 +194,26 @@ add_action('woocommerce_single_product_summary', 'woo_custom_badge_display', 15)
 1. Check if CSS files are loading properly
 2. Look for theme CSS conflicts
 3. Try adding `!important` to custom CSS rules
+
+## Frequently Asked Questions
+
+**Q: Can I add custom badge types?**
+A: Currently, badge types are predefined. You can modify the `woo_custom_badge_get_options()` function to add custom badges.
+
+**Q: Will badges show on shop/category pages?**
+A: By default, badges only show on single product pages. You can add them to shop pages by modifying the plugin hooks.
+
+**Q: Can I change the badge appearance?**
+A: Yes, you can customize the badge styling by editing the CSS files in the `assets/css/` directory.
+
+**Q: Does this plugin affect site performance?**
+A: The plugin is lightweight and uses efficient WordPress/WooCommerce practices with minimal impact on performance.
+
+**Q: Can I use multiple badges on one product?**
+A: Currently, only one badge per product is supported. This is by design to maintain clean product presentation.
+
+**Q: What happens when I deactivate the plugin?**
+A: All badge data is automatically removed from the database when the plugin is deactivated.
 
 ## Changelog
 
