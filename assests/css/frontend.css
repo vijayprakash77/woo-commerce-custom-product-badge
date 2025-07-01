@@ -1,0 +1,31 @@
+.woo-custom-badge {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.woo-custom-badge .badge-text {
+    padding: 6px 8px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: red;
+    display: inline-block;
+}
+
+.shortcode-badge{
+	display: inline-block;
+    margin-bottom: 5px;
+	margin-top:5px;
+}
+
+.shortcode-badge .badge-text {
+    padding: 4px 6px;
+    font-weight: 500;
+	font-size:8px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: red;
+    display: inline-block;
+}
