@@ -1,6 +1,6 @@
 # WooCommerce Custom Product Badge
 **Contributors:** Vijay Prakash Mahato  
-**Tags:** wordpress, woocommerce, product, badge, label, new-arrival, best-seller, hot-deal  
+**Tags:** wordpress, woocommerce, product, badge, new-arrival, best-seller, hot-deal  
 **Requires at least:** 5.6  
 **Tested up to:** 6.4  
 **Requires PHP:** 5.6.20  
